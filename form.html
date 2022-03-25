@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <div id="header">
+        <h1>
+            Student Enrollment Form
+        </h1>
+    </div>
+    <div id="container">
+        <div id="inputDiv">
+            <form id="inputform">
+                <label for="name">Enter your Name
+                    :- </label>
+                <input type="text" id="name"><br>
+                <label for="email">Enter your
+                    Email :- </label>
+                <input type="email"
+                    id="email"><br>
+                <label for="profile">Enter your
+                    LinkedIn url :- </label>
+                <input type="url"
+                    id="profile"><br>
+                <label for="image">Enter the Image
+                    url :- </label>
+                <input type="url" id="url"><br>
+                <!-- <label id="glabel" for="gender">Select Gender :- </label>
+            <input class="radio" type="radio" name="gender" value="male"> Male
+            <input class="radio" type="radio" name="gender" value="female"> Female<br> -->
+                <label id="glabel"
+                    for="gender">Gender :-
+                </label>
+                <select id="gender">
+                    <option value="null">Select
+                    </option>
+                    <option value="Male">Male
+                    </option>
+                    <option value="Female">Female
+                    </option>
+                    <option value="Other">Other
+                    </option>
+                </select><br>
+                <label for="skills">Select your
+                    Skills :- </label><br>
+                <div id="skills">
+                    <input class="checkbox"
+                        type="checkbox"
+                        id="skill1"
+                        name="Java">JAVA
+                    <input class="checkbox"
+                        type="checkbox"
+                        id="skill2"
+                        name="Python">PYTHON
+                    <input class="checkbox"
+                        type="checkbox"
+                        id="skill3" name="C++">C++
+                    <input class="checkbox"
+                        type="checkbox"
+                        id="skill4"
+                        name="Html/Css">HTML/CSS
+                    <br>
+                    <input class="checkbox"
+                        type="checkbox"
+                        id="skill5"
+                        name="Javascript">JAVASCRIPT
+                    <input class="checkbox"
+                        type="checkbox"
+                        id="skill6"
+                        name="SQL">SQL<br>
+                </div>
+
+                <input type="button"
+                    onclick="displayData()"
+                    value="Enroll Student"
+                    class="submitbtn">
+                <input type="reset" value="Clear"
+                    class="clearbtn">
+            </form>
+        </div>
+        <div id="displayDiv">
+            <div id="displayContainer">
+                <div id="details">
+                    <p id="namedisplay">Name:</p>
+                    <p id="emaildisplay">Email:
+                    </p>
+                    <a id="linkedindisplay"
+                        href="">LinkedIn
+                        Profile</a>
+                    <p id="genderdisplay">Gender:
+                    </p>
+                    <p id="skillsdisplay">
+                        Skills:<br></p>
+                </div>
+                <div id="imgdisplay">
+                    <img id="image"
+                        src="icon.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="form.js"></script>
+
+</body>
+
+</html>
+
+<!-- img url:- https://image.shutterstock.com/z/stock-vector-hi-hello-banner-speech-bubble-poster-and-sticker-concept-with-text-hello-white-bubble-message-1505210795.jpg -->
+<!-- linkedin url :- https://www.linkedin.com/in/anuragsomani15/ -->

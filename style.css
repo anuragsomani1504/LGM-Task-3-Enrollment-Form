@@ -1,0 +1,90 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+body{
+    background-color: bisque;
+}    
+.inputform{
+    margin-left: 60px;
+}
+input{
+    margin: 10px;
+    width: 250px;  
+}
+form{
+    font-size: 28px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
+.radio{
+    width: 20px;
+    height: 20px;
+}
+.submitbtn{
+    font-size: 28px;
+    border: 2px solidr red;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: antiquewhite;
+    height: auto;
+    width: auto;
+}
+.clearbtn{
+    font-size: 28px;
+    border: 2px solidr red;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: antiquewhite;
+    height: auto;
+    width: auto;
+}
+
+label{
+    width: 300px;
+    display: inline-block;
+}
+#glabel{
+    display: inline;
+}
+#container {
+    display: flex;
+}
+#inputDiv{
+    flex: 1;
+}
+#image {
+    width: 100px;
+    height: 100px;
+}
+#displayDiv{
+    flex: 1;
+    border-left: 5px solid blueviolet;   
+    padding-left: 50px;
+    font-size: 18px; 
+}
+#displayContainer {
+    margin-top: 20px;
+    display: none;
+}
+#details {
+    flex: 1; 
+    padding-left: 30px;
+    height: 240px;
+    border: 2px solid gray;
+}
+#imgdisplay {
+    flex: 1;
+    width: 200px;
+    height: 240px; 
+    
+}
+#image{
+    width: 200px;
+    height: 240px;
+    border: 2px solid gray;
+}
